@@ -18,7 +18,7 @@ function Camera(design, format, accessories){
 }
 
 // Creating a new instance of Camera; myCamera
-// This way objects has defined attributes at creation of instance
+// This way objects have defined attributes at creation of instance
 var myCamera = new Camera ("Plate", "32mm", "Tripod");
 
 // There ar etwo ways how we can access the attributes ot methods of the object:
@@ -161,13 +161,6 @@ function Photo(fileName, location) {
  myAlbum.addPhoto(nextPhoto);
  myAlbum.getPhoto(1);
 
-
-
-
-// Create a prototypical Person object. From this object, extend a Teacher object and a Student object. Each of these objects should have attributes and methods pertinent to what they describe. Also create a School object that should be able to store instances of students and teachers. Make sure to write code afterwards that creates instances of these objects to make sure that what you've written works well and you're able to store the necessary data in each object.
-
-
-
 // create an object called Multiplier with two methods: multiply and getCurrentValue. multiply should initially return the number supplied * 1 and from then on whatever the current value is times the number supplied. getCurrentValue should return the last answer returned from multiply.
 
 function Multiplier(){
@@ -249,6 +242,7 @@ function School() {
 var nTeacher = new Teacher("Tina", "Ani", "Philosophy");
 var nStudent = new Student("Srdjan", "Radovic", "Spanish Literature")
 var nSchool = new School();
+
 nSchool.addTeacher(nTeacher);
 nSchool.addStudent(nStudent);
 
